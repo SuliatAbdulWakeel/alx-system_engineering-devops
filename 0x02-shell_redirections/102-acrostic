@@ -1,2 +1,2 @@
 #!/bin/bash
-cat | tr " " "\n" | "%c" "${line:0:1}" "\n"
+cut -c 1 | paste -s -d"
